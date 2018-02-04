@@ -141,6 +141,8 @@ header#main-header .main-header-content h2 {
     top: 50%;
  transform: translateY(-50%);
 }
+
+
 */
 
 
@@ -198,7 +200,7 @@ section#about {
     background-color: #asda;
     overflow: hidden;
 }
-section#about > figure {
+section#about > figure { 
     text-align: center;
     margin: 0;
     margin-right:30px;
@@ -211,9 +213,30 @@ section#about > figure > img {
     max-width: 100%;
     max-height : 350px;
 }
+
+.col-1-2 {  (do about-content i figure)
+float:left;
+width:50%;
+}
 */
 
 
 
 /*SEKCJA ABOUT KONIEC*/
 
+/*SEKCJA umiejetnosci*/
+#skills {
+	text-align: center;
+}
+#skills > p {
+    text-align: center;
+}    
+
+#skills #skills-icons figure {
+    display: inline-block;
+    text-align: center;
+}
+#skills #skills-icons figure ficaption {
+    text-transform: uppercase;
+}
+/*SEKCJA umiejetnosci koniec*/
