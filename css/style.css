@@ -8,3 +8,19 @@ body {
     color: #291f1a;
     font-weight: 300;
 }
+#main-nav {
+	background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+}
+nav#main-nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 300;
+    color: #1ac056;
+    float: right;
+}
+nav#main-nav ul li:hover {
+    color: #291f1a;
+}
