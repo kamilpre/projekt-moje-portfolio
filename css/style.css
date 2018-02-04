@@ -1,0 +1,10 @@
+/*
+czcionki
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 300;
+}
