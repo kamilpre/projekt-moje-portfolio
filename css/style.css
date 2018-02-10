@@ -382,3 +382,13 @@ input[type="submit"]:hover {
     color: #1ac056;
 }
 /*KONTAKT - KONIEC*/
+
+footer {
+    background-color: #142634;
+    padding: 0 80px;
+}
+footer p {
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
