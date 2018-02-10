@@ -240,3 +240,71 @@ width:50%;
     text-transform: uppercase;
 }
 /*SEKCJA umiejetnosci koniec*/
+
+/*PORTFOLIO START*/
+
+#portfolio-item-1 {
+	background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio-item-2 {
+	background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio-item-3 {
+	background-image: url(../img/portfolio3.jpg);
+}
+
+.portfolio-items .portfolio-item {
+	height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 33.33333%;
+    position: relative;
+}
+
+.portfolio-items {
+	text-align: center;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+
+.portfolio-items .item-mask {
+	background-color: rgba(42, 61, 79, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    font-size: initial;
+}
+
+.item-mask:hover {
+	opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.portfolio-items .item-content {
+	border: 1px solid #fff;
+    margin: 10px;
+    height: 330px;
+    position: relative;
+}
+
+.item-content-inner {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    padding: 5px;
+}
+
+.portfolio-items .item-content-inner {
+    color: white;
+}
+.portfolio-items .item-content-inner i:hover {
+	color: #1ac056;
+}
+/*PORTFOLIO KONIEC*/
