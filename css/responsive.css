@@ -24,11 +24,20 @@
         padding: 20px;
         text-align: right;
     }
+    .main-header-content {
+	padding: 10%;
+}
 }
 
 @media all and (max-width: 768px) {
     section {
         padding: 0 40px 50px;
+    }
+    header#main-header .main-header-content h1 {
+        font-size: 3em;
+    }
+    header#main-header .main-header-content h2 {
+        font-size: 1.5em;
     }
 }
 

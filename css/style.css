@@ -78,8 +78,9 @@ nav#main-nav ul li:hover {
     height: 100vh;
     ;
     background-position: center;
-
+    color: white;
 }
+/*
 
 #main-header h1 {
     font-family: 'Roboto', sans-serif;
@@ -104,16 +105,18 @@ nav#main-nav ul li:hover {
 div.main-header-content {
     padding: 30vh;
 }
+*/
 
 
-/*   ZAJECIA
+/*
 header#main-header {
-    background-image: url("../img....");
+    background-image: url("https://www.w3schools.com/w3css/img_lights.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
 }
+*/
 
 header#main-header .main-header-content {
     padding: 30vh;
@@ -135,7 +138,7 @@ header#main-header .main-header-content h2 {
     font-weight: 300;
 }
 
-.main-header-content {    drugi sposob
+.main-header-content {  
  position: absolute;
     width: 100%;
     top: 50%;
@@ -143,7 +146,7 @@ header#main-header .main-header-content h2 {
 }
 
 
-*/
+
 
 
 
